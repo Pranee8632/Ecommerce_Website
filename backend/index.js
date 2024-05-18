@@ -20,7 +20,7 @@ app.use(cors()); //to connect frontend with the backend
 // and create a database cluster and connect it to the express server
 
 // Database Connection with MongoDB
-mongoose.connect("mongodb+srv://praneetha:00170017@cluster0.ehuzatt.mongodb.net/e-commerce")
+mongoose.connect("")
 
 //API Creation
 
