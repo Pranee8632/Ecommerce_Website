@@ -1,0 +1,35 @@
+firstly we have opened the backend integrated terminal 
+and then type "npm init" and next entered until we get is this ok? 
+later check the backend folder u will be seeing the file .json
+
+now we will install some dependencies - first we will install the express server,
+"npm install express"
+
+now we will install the json web token package
+"npm install jsonwebtoken"
+
+next we need to add the mongoose package for the mongodb support
+"npm install mongoose"
+
+next we will install multer to store images in backend folder that we will upload using our admin panel
+"npm install multer"
+
+next we will install the cors , using this we can add the permission to our application to access the backend
+"npm install cors"
+
+
+
+//admin
+after opening the integrated admin terminal,type
+"npm create vite@latest ."
+
+select framework: React
+select variant :Javascript
+
+"npm install" ->  it will install all the dependencies in the admin folder
+
+we have created the admin using the project vite and to run that we type
+"npm run dev"
+
+
+mkdir client -> creates a client folder
